@@ -1,0 +1,60 @@
+body {
+  font-family: courier;
+  font-size: 13px;
+  background: linear-gradient(0deg, #49a09d, #5f2c82) !important;
+  text-align: center;
+  color: #fff;
+  align: center;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.axis {
+    font-family: courier;
+    font-size: 11px;
+}
+
+.axis path {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+  stroke-width: 2px;
+}
+
+.x-axis line,
+.y-axis line {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+  stroke-width: 1px;
+}
+
+.y-label,
+.x-label {
+  fill: #fff !important;
+}
+
+.datapoint {
+  fill: #ff6e40;
+}
+
+.legend text {
+  fill: #fff !important;
+}
+
+.currencyID {
+  color: #fff !important;
+  fill: #fff;
+}
+
+.link {
+  color: #ff6e40;
+}
